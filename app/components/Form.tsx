@@ -109,8 +109,8 @@ const Form = () => {
               <input
                 className={
                   errors.month
-                    ? `w-[80px] ${errorClass}`
-                    : `w-[80px] ${normalBorderClass}`
+                    ? `w-[70px] ${errorClass}`
+                    : `w-[70px] ${normalBorderClass}`
                 }
                 placeholder="MM"
                 {...register("month", {
@@ -134,8 +134,8 @@ const Form = () => {
               <input
                 className={
                   errors.year
-                    ? `w-[80px] ${errorClass}`
-                    : `w-[80px] ${normalBorderClass}`
+                    ? `w-[70px] ${errorClass}`
+                    : `w-[70px] ${normalBorderClass}`
                 }
                 placeholder="YY"
                 {...register("year", {
